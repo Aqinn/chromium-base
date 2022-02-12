@@ -1,12 +1,10 @@
 ﻿// test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
-#include "pch.h"
 #include <iostream>
+#include "base/logging.h"
 
-
-#pragma warning(disable:4251)
-
-int main(int argc, char* argv[]) {
+int main() {
+  LOG(INFO) << "halo";
   return 0;
 }
